@@ -9,4 +9,22 @@ print(my_message)
 print(my_custom_message)
 print(my_custom_message_one)
 print(my_custom_message_multiline)
+print(len(my_custom_message))
+print(my_custom_message[0])
+#print(my_custom_message[24])
+print(my_custom_message[0:21])
+print(my_custom_message[:22])
+print(my_custom_message[0:])
+print(my_custom_message.lower())
+print(my_custom_message.upper())
+print(my_custom_message.count('a'))
+print(my_custom_message.find('P'))
+my_replace_variable = my_custom_message.replace('Prash','DevOPS')
+print(my_replace_variable)
 
+greet = 'Hello'
+name = 'Prash DevOPS'
+mygreet = greet + ' warm ' +  name
+print(mygreet)
+mymessage = 'Welcome {}, {} '.format (greet, name)
+print(mymessage)
