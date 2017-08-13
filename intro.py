@@ -28,3 +28,4 @@ mygreet = greet + ' warm ' +  name
 print(mygreet)
 mymessage = 'Welcome {}, {} '.format (greet, name)
 print(mymessage)
+#print(dir(my_custom_message))
